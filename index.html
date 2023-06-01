@@ -68,7 +68,7 @@
         <div class="col-md-6 order-1 order-md-2">
           <div id="sectionGroup" class="text-center d-lg-block"> 
             <div class="row justify-content-center">
-              <div class="col-10 col-lg-8">
+              <div class="col-10 col-lg-8 mb-5 mb-md-0">
                 <h2>MUSEUM OF CANDY</h2>
                 <img class="img-fluid d-none d-lg-inline" src="imgs/lolli_icon.png" alt="Lollipop Icon">
                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo soluta repellendus explicabo! Rerum, itaque illum reprehenderit eveniet ipsa inventore temporibus ratione, laborum consequatur minus laudantium animi, debitis explicabo soluta.
@@ -86,7 +86,7 @@
         <div class="col-md-6">
           <div id="sectionGroup" class="text-center d-lg-block"> 
             <div class="row justify-content-center">
-              <div class="col-10 col-lg-8">
+              <div class="col-10 col-lg-8 mb-5 mb-md-0">
                 <h2>MUSEUM OF CANDY</h2>
                 <img class="img-fluid d-none d-lg-inline" src="imgs/lolli_icon.png" alt="Lollipop Icon">
                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo soluta repellendus explicabo! Rerum, itaque illum reprehenderit eveniet ipsa inventore temporibus ratione, laborum consequatur minus laudantium animi, debitis explicabo soluta.
@@ -110,7 +110,7 @@
         <div class="col-md-6 order-1 order-md-2">
           <div id="sectionGroup" class="text-center d-lg-block"> 
             <div class="row justify-content-center">
-              <div class="col-10 col-lg-8">
+              <div class="col-10 col-lg-8 mb-5 mb-md-0">
                 <h2>MUSEUM OF CANDY</h2>
                 <img class="img-fluid d-none d-lg-inline" src="imgs/lolli_icon.png" alt="Lollipop Icon">
                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo soluta repellendus explicabo! Rerum, itaque illum reprehenderit eveniet ipsa inventore temporibus ratione, laborum consequatur minus laudantium animi, debitis explicabo soluta.
@@ -128,5 +128,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
+    <script>
+      $(function () {
+        $(document).scroll(function() {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>

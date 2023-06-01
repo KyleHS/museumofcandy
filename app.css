@@ -25,6 +25,10 @@ body {
     font-size: 1.5rem;
 }
 
+.navbar.scrolled {
+    background: #dec0de;
+}
+
 /*Header Styling*/
 
 #headingGroup h1 {
