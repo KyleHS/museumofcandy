@@ -21,3 +21,19 @@ body {
     font-size: 1.5rem;
 }
 
+#headingGroup h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+#headingGroup span {
+    color:#ea1c2c
+}
+
+/*responsive header for smaller screens*/
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+        font-weight: 100;
+    }
+}
