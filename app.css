@@ -1,7 +1,11 @@
+/*Background and overall font*/
+
 body {
     background: #f5d9d5;
     font-family: "Nunito", sans-serif;
 }
+
+/*Navbar styling*/
 
 #mainNavbar {
     font-size: 1.5rem;
@@ -21,6 +25,8 @@ body {
     font-size: 1.5rem;
 }
 
+/*Header Styling*/
+
 #headingGroup h1 {
     font-size: 4rem;
     font-weight: 100;
@@ -30,10 +36,22 @@ body {
     color:#ea1c2c
 }
 
-/*responsive header for smaller screens*/
+/*responsive header media query for smaller screens*/
 @media (max-width: 1200px) {
     #headingGroup h1 {
         font-size: 3rem;
         font-weight: 100;
     }
+}
+
+/*First Section*/
+#sectionGroup1 h2 {
+    font-size:2.5rem;
+    font-weight: 100;
+    color:#ea1c2c;
+}
+
+#sectionGroup1 p {
+    color:#f1a7c6;
+    line-height: 2rem;
 }
